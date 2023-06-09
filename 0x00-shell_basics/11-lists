@@ -1,2 +1,2 @@
 #!/bin/bash
-find . .. /boot -maxdepth 1 -name ".*" -ls
+ls -al . .. /boot
