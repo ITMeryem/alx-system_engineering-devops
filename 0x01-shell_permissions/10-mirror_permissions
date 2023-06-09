@@ -1,2 +1,3 @@
 #!/bin/bash
-chmod a=rx u+w olleh hello
+chmod --reference=olleh --changes hello
+
