@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo grep -oE '^[^:]+:[^:]+:' /etc/passwd | sort
+grep -oE '^[^:]+:[^:]+:' /etc/passwd | sort
